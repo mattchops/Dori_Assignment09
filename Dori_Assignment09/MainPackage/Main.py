@@ -12,12 +12,12 @@ print(cupcake.__str__())
 
 print(cupcake.flavor) 
 
-#Negative Test
+#Negative Test Cupcake
 cupcake.setPrice(-3)
-#Positive Test
+#Positive Test Cupcake
 cupcake.setPrice(3)
 print(cupcake.__str__())
 
-#This gets the flavor 
+#This gets the cupcake flavor 
 cupcake.getFlavor()
 print(cupcake.flavor)

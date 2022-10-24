@@ -17,3 +17,7 @@ cupcake.setPrice(-3)
 #Positive Test
 cupcake.setPrice(3)
 print(cupcake.__str__())
+
+#This gets the flavor 
+cupcake.getFlavor()
+print(cupcake.flavor)

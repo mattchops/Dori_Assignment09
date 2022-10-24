@@ -6,6 +6,10 @@ Created on Oct 20, 2022
 #We need to identify the class
 class Cupcake():
 
+#This gets the price of a cupcake
+    def getFlavor(self):
+        return self.flavor
+
 #This sets the price of a cupcake 
     def setPrice(self, price):
         self.validatePrice(price)
